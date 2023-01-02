@@ -5,8 +5,6 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -19,9 +17,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Install / Enable IIS in Windows
-- Install Web Platform Installer 
-- Install osTicket v1.15.8
+- Create Virtual Machine
+- Enable IIS in Windows
+- Download and Install Web Platform Installer 
+- Download and Install osTicket v1.15.8
 - Download and Install HeidiSQL
 
 <h2>Installation Steps</h2>
@@ -54,6 +53,15 @@ osTicket is a support ticket system that was installed to improve customer servi
 <img src="https://i.imgur.com/UcY6ix3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-HeidiSQL was installed and downloaded to allow browsing, editing data, create and edit tables, views, procedures, triggers and scheduled events and structures. The database systems run by the computer can be  MariaDB or MySQL. 
+HeidiSQL was installed and downloaded to allow browsing, editing data, create and edit tables, views, procedures, triggers and scheduled events and structures. The database systems run by the computer can use MySQL. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/1Ra3uM5.png" height="80%" width="80%" alt="Setup1"/>
+<img src="https://i.imgur.com/Z1GXuuk.png" height="80%" width="80%" alt="Setup2"/>
+</p>
+<p>
+After configration completion, I selected the databases name. Also, I set up the admins username and password.
 </p>
 <br />
